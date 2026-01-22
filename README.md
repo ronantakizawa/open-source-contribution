@@ -2,6 +2,10 @@
 
 A Claude Code skill that guides developers through open source contributions.
 
+This skill has been tested and shows signs of improved commitment message consistency and easy issue discovery. 
+
+This skill was built using references from GitHub and Google's  open source guide and conventional commits. 
+
 ## What It Does
 
 - **Finding Projects**: Resources and labels for finding beginner-friendly issues
@@ -30,47 +34,15 @@ npx skills add ronantakizawa/skill-open-source-contribution
 git clone https://github.com/ronantakizawa/skill-open-source-contribution ~/.claude/skills/open-source-contribution
 ```
 
-## Usage
+### References
+- [GitHub Open Source Guide](https://opensource.guide/how-to-contribute/)
+- [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Google Engineering Practices](https://google.github.io/eng-practices/review/)
+- [Good First Issue](https://goodfirstissue.dev/)
+- [First Timers Only](https://www.firsttimersonly.com/)
+- [Up For Grabs](https://up-for-grabs.net/)
+- [CodeTriage](https://www.codetriage.com/)
+- [7 Common Mistakes New Contributors Make](https://dev.to/codergirl1991/7-common-mistakes-new-contributors-make-in-open-source-software-2noo)
+- [Lessons from Reviewing 200+ PRs](https://bhupesh.me/hacktoberfest-pr-review/)
+- [Nadia Eghbal - Working in Public](https://press.stripe.com/working-in-public)
 
-Once installed, the skill activates when you ask Claude Code about:
-- Contributing to GitHub/GitLab projects
-- Writing commit messages
-- Responding to code review
-- Reporting vulnerabilities
-- Finding open source projects to contribute to
-
-### Example Prompts
-
-```
-Write a commit message for this change: I added user authentication
-
-How do I find a good first open source project to contribute to?
-
-A reviewer said my code is inefficient. How should I respond?
-
-I found a security vulnerability in a library. What should I do?
-```
-
-## Structure
-
-```
-open-source-contribution/
-├── SKILL.md                 # Main skill file
-├── marketplace.json         # Marketplace metadata
-├── reference/
-│   ├── conventional-commits.md
-│   ├── enterprise-practices.md
-│   └── security-disclosure.md
-├── templates/
-│   ├── pull-request.md
-│   ├── bug-report.md
-│   ├── feature-request.md
-│   └── commit-messages.md
-└── tests/
-    ├── evaluation-prompts.md
-    └── run-evaluation.sh
-```
-
-## License
-
-MIT
