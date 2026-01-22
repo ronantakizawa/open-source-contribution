@@ -1,10 +1,10 @@
 # Open Source Contribution Skill
 
-A Claude Code skill that guides developers through open source contributions.
+A Claude Code skill that guides agents to follow open-source contributions best practices. 
 
-This skill has been tested and shows signs of improved commitment message consistency and easy issue discovery. 
+This skill has been tested and shows signs of improved commit message consistency and better PR quality.
 
-This skill was built using references from GitHub and Google's  open source guide and conventional commits. 
+This skill was built using references from GitHub and Google's open source guide and conventional commits. 
 
 ## What It Does
 
