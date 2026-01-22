@@ -20,18 +20,18 @@ This skill was built using references from GitHub and Google's  open source guid
 
 ### Using npx add-skill
 ```bash
-npx add-skill ronantakizawa/skill-open-source-contribution
+npx add-skill ronantakizawa/open-source-contribution
 ```
 
 ### Using npx skills
 ```bash
-npx skills add ronantakizawa/skill-open-source-contribution
+npx skills add ronantakizawa/open-source-contribution
 ```
 
 ### Manual Installation
 ```bash
 # Clone to your skills directory
-git clone https://github.com/ronantakizawa/skill-open-source-contribution ~/.claude/skills/open-source-contribution
+git clone https://github.com/ronantakizawa/open-source-contribution ~/.claude/skills/open-source-contribution
 ```
 
 ### References

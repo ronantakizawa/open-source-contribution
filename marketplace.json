@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Guides developers through open source contributions including finding projects, writing PRs, conventional commits, and communicating with maintainers. Covers enterprise standards (Linux Kernel, Apache) and security disclosure.",
   "author": "ronantakizawa",
-  "repository": "https://github.com/ronantakizawa/skill-open-source-contribution",
+  "repository": "https://github.com/ronantakizawa/open-source-contribution",
   "license": "MIT",
   "keywords": [
     "open-source",
